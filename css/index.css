@@ -1,0 +1,51 @@
+/*
+  Arrival U.S. Website
+
+  Authors: Lucas Eastman, Dylan Jones-Miller, Charley Tran
+  Date: 4.25.18
+
+  Filename: index.css
+*/
+
+@media only screen and (min-width:300px) {
+  #sections div div div {
+    margin-bottom: 12.5px;
+  }
+  #sections div div div a {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width:1000px) {
+  #sections div div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+  }
+  #sections div div div {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0;
+    width: 25%;
+  }
+}
+
+div img#image {
+  width: 50%;
+  float: right;
+}
+
+/*#headingbreak {
+  margin: 25px 0;
+  width: 50%;
+  border: inset;
+  border-width: 1px;
+  border-color: purple;
+}
+
+.secbreak {
+  margin: 50px auto;
+  background-color: rgb(230, 230, 230);
+}*/

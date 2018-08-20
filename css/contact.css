@@ -1,0 +1,65 @@
+/*
+  Arrival U.S. Website
+
+  Authors: Lucas Eastman, Dylan Jones-Miller, Charley Tran
+  Date: 4.25.18
+
+  Filename: contact.css
+*/
+
+main {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+input, label {
+  display: block;
+}
+
+div {
+  margin-top: 2%;
+}
+
+div.row {
+  margin: 0;
+}
+
+main p {
+  font-size: 3vh;
+}
+
+div#buttons input {
+  float: left;
+  margin-left: 1%;
+}
+
+main div#contact {
+  text-align: center;
+}
+
+@media only screen and (min-width:1200px) {
+  input#firstName, input#lastName {
+    display: inline-block;
+    width: 250px;
+  }
+  input#email {
+    width: 250px;
+  }
+  div#emailDiv {
+    float: left;
+    margin-right: 2%;
+  }
+  div#phoneDiv {
+    float: left;
+  }
+  div#contact {
+    float: left;
+    margin-right: 2%;
+  }
+}
+
+@media only screen and (min-width:300px) {
+  #buttons {
+    margin-bottom: 10%;
+  }
+}

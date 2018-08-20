@@ -1,0 +1,32 @@
+/*
+  Arrival U.S. Website
+
+  Authors: Lucas Eastman, Dylan Jones-Miller, Charley Tran
+  Date: 4.25.18
+
+  Filename: involved.css
+*/
+
+section:first-of-type {
+  /*width: 100%;*/
+}
+
+#volanddon {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+/*#volanddon div.btn-wrap {
+  width: 100%;
+  padding: 0;
+  border: 1px solid black;
+}*/
+
+#volanddon div.btn-wrap a {
+  line-height: 100%;
+  margin: 0;
+}
