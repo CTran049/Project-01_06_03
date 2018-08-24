@@ -150,7 +150,7 @@
 
   main {
     display: block;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.95);
     margin-top: 2%;
     margin-bottom: 5%;
     margin-left: auto;
@@ -184,7 +184,7 @@
     display: block;
     text-align: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.9);
     padding: 50px 0;
   }
 
